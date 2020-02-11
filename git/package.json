@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "cnpm": "^6.1.1",
+    "jquery": "1.11.3",
+    "zepto": "^1.2.0"
+  }
+}

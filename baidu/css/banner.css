@@ -1,0 +1,75 @@
+.banner{
+    width: 1204px;
+    height: 360px;
+    overflow: hidden;
+}
+.banner .banImg{
+    width: 4816px;
+
+}
+.banner .banImg li{
+    float: left;
+    width: 1204px;
+}
+.banner .banImg li img{
+    width: 100%;
+  
+}
+.banner .slidBar{
+    position: absolute;
+    left: 84px;
+    top: 84px;
+    width: 240px;
+    height: 360px;
+    /* background-color: rgb(104, 228, 245); */
+}
+.banner .slidBar li{
+    line-height: 71px;
+    
+}
+.banner .slidBar li a{
+    display: block;
+    margin: 0 auto;
+    width: 179px;
+    border-bottom: 1px solid rgba(248, 245, 245, 0.959);
+    font-size: 14px;
+    color: #fdfdfe;
+    padding-left: 11px;
+    
+}
+.banner .slidBar li em{
+    float: right;
+    font-style: normal; 
+    font-size: 8px; 
+    padding-right:8px ;
+}
+.banner .slidBar li:hover .ban-hidden{
+    display: block;
+
+}
+.banner .slidBar li:hover {
+    background-color: #003;
+}
+.banner .ban-hidden{
+   display: none;
+   position: absolute;
+   left:240px ;
+   top: 0;
+   width: 300px;
+   height: 360px;
+   background-color: rgb(137, 119, 240);
+}
+.banner .ban-hidden dl{
+     margin-left: 33px;
+}
+.banner .ban-hidden dl dt{
+    font-size: 16px;
+    color: #0b0b0b;
+    line-height: 82px;
+}
+.banner .ban-hidden dl dd{
+    font-size: 14px;
+    line-height: 14px;
+    color: #4a4b4b;
+    margin-bottom: 24px;
+}
